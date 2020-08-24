@@ -1,0 +1,39 @@
+{
+  "name": "dholi/module-jadlog",
+  "description": "Frete com Jadlog + Getmodal para Magento 2 (Open Source)",
+  "homepage": "https://www.dholi.dev/jadlog",
+  "keywords": [
+    "magento",
+    "magento2",
+    "shipping",
+    "jadlog",
+    "getmodal",
+    "riaworks",
+    "ecommerce"
+  ],
+  "authors": [
+    {
+      "name": "dholi.dev",
+      "email": "comunidade@dholi.dev"
+    }
+  ],
+  "support": {
+    "email": "comunidade@dholi.dev"
+  },
+  "require": {
+    "php": "~7.3|~7.4",
+    "magento/framework": "103.0.*"
+  },
+  "license": [
+    "OSL-3.0",
+    "AFL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "src/module-jadlog/registration.php"
+    ],
+    "psr-4": {
+      "Dholi\\Jadlog\\": "src/module-jadlog"
+    }
+  }
+}
